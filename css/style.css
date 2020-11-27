@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1355px) {
+  html {
+    font-size: 58%;
+  }
+}
+@media (max-width: 1259px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 1040px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 850px) {
+  .class-content #class-subjects {
+    margin-left: 9rem;
+    grid-template-columns: 63.2rem;
+    grid-template-rows: repeat(4, 34.6rem);
+    row-gap: 2rem;
+  }
+  #sub-headed {
+    top: 18rem;
+    right: 4.6rem;
+  }
+  #sub-img {
+    right: 4.6rem;
+  }
+}
+@media (max-width: 685px) {
+  .header-logo img {
+    display: none;
+  }
+  .content #sidebar {
+    display: none;
+  }
+}
+@media (max-width: 662px) {
+  .class-content #class-subjects {
+    grid-template-rows: repeat(4, 30rem);
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 425px) {
+  body .content {
+    margin-top: 29.1rem;
+    display: block;
+  }
+  .content #sidebar {
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+  }
+  #sidebar .navbar-nav {
+    position: absolute;
+    top: -29rem;
+    left: 0;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    z-index: 200000;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  #class-list {
+    margin-left: 5.8rem !important;
+  }
+
+  .content #classroom {
+    position: absolute;
+    top: 12.2rem;
+    left: 0;
+    display: block;
+    width: 100%;
+  }
+  .class-main #class-head {
+    margin-left: 5.8rem !important;
+  }
+  .class-dropdown #drop-head {
+    margin-left: 5.8rem !important;
+  }
+  .class-content #class-subjects {
+    margin-left: 9rem !important;
+  }
+}
+@media (max-width: 320px) {
+  .class-content #class-subjects {
+    margin-left: 2rem !important;
+  }
+}
+/* @media (max-width: 956px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 35%;
+  }
+} */
+
+.body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}

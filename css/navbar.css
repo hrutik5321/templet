@@ -1,0 +1,92 @@
+.content {
+  display: flex;
+}
+
+#sidebar {
+  border-bottom: 1px solid#4D4F5C;
+  border-right: 1px solid#4D4F5C;
+  transition: all 0.5s;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+.back {
+  display: none;
+  transform: translateX(-291px);
+}
+
+.navbar-nav {
+  list-style: none;
+  font-size: 1.9rem;
+  width: 29.1rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #4d4f5c;
+  margin-left: 3rem;
+}
+
+.nav-link:hover {
+  color: #bc6c42;
+}
+
+.nav-item {
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  line-height: 60px;
+  position: relative;
+  color: red;
+}
+
+.nav-item:last-child {
+  margin-top: 3.8rem;
+}
+
+.nav-item:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #bc6c42;
+  transition: all 1s;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 10px;
+  background-color: #fcdfbd;
+  z-index: -1;
+  transform: scaleY(0);
+  transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
+}
+
+.nav-item:hover::after {
+  transform: scaleY(1);
+  width: 100%;
+}
+
+.nav-icon {
+  font-size: 2.8rem;
+  text-align: center;
+  width: 4.6rem;
+  height: 4.6rem;
+}
+
+.icon-text {
+  margin-left: 2rem;
+}
+
+.main-add {
+  background-color: cornflowerblue;
+}
