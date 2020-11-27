@@ -84,6 +84,12 @@ html {
     border-right: 1px solid gray;
     border-bottom: 1px solid gray;
   }
+    .navbar-nav .nav-item {
+    text-align: left;
+  }
+  .nav-item .nav-link {
+    margin-left: 4rem;
+  }
   #class-list {
     margin-left: 5.8rem !important;
   }
