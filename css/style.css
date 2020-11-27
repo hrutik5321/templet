@@ -52,7 +52,7 @@ html {
 }
 @media (max-width: 662px) {
   .class-content #class-subjects {
-    grid-template-rows: repeat(4, 30rem);
+    grid-template-rows: repeat(4, 35rem);
   }
 }
 @media (max-width: 500px) {
